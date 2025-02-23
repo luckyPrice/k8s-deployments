@@ -5,7 +5,7 @@ metadata:
   labels:
     app: my-web-app
 spec:
-  replicas: 4  # 4개의 파드를 생성
+  replicas: 5  # 4개의 파드를 생성
   selector:
     matchLabels:
       app: my-web-app
