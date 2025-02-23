@@ -16,3 +16,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  syncOptions:
+      - RollbackOnFailure=true  # 배포 실패 시 자동 롤백
