@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: my-web-app
-          image: nginx:latest  # 개발팀 제공 이미지 사용 가능
+          # image: nginx:latest  # 개발팀 제공 이미지 사용 가능
+          image: myrepo/my-web-app:v2-broken
           ports:
             - containerPort: 80
           resources:
